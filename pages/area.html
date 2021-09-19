@@ -4,43 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Fun with triangles</title>
 </head>
 <body>
     <nav class="navigation">
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class= "link  link-active" href="/">Is Triangle?</a>
+                <a class= "link " href="/">Is Triangle?</a>
             </li>
             <li class="list-item-inline">
-                <a class= "link" href="./pages/quiz.html">Quiz</a>
+                <a class= "link" href="./quiz.html">Quiz</a>
             </li>
             <li class="list-item-inline">
-                <a class= "link" href="./pages/hypotenuse.html">Hypotenuse</a>
+                <a class= "link" href="./hypotenuse.html">Hypotenuse</a>
             </li>
             <li class="list-item-inline">
-                <a class= "link" href="./pages/area.html">Area</a>
+                <a class= "link  link-active" href="./area.html">Area</a>
             </li>
         </ul>
     </nav>
     <div class="container">
-        <h1 class="heading">Is Triangle?</h1>
+        <h1 class="heading">Check Area of Triangle</h1>
+        <h2 class="formula">Area of triangle = 1/2(Base * Height)</h2>
         <div class="container">
-            <label for="angle-1">angle-1 (in degrees)</label>
-            <input type="number" class="input" id="angle-1"/>
+            <label for="base-length">Base(in cm)</label>
+            <input type="number" class="input" id="base-length"/>
         </div>
         <div class="container">
-            <label for="angle-2">angle-2 (in degrees)</label>
-            <input type="number" class="input" id="angle-2"/>
+            <label for="height-length">Height(in cm)</label>
+            <input type="number" class="input" id="height-length"/>
         </div>
+        <br/>
         <div class="container">
-            <label for="angle-3">angle-3 (in degrees)</label>
-            <input type="number" class="input" id="angle-3"/>
-        </div>
-        <br>
-        <div class="container">
-            <div class="button" id="check-button">Is Triangle?</div>
+            <div class="button" id="check-area">Check Area</div>
         </div>
         <div class="container">
             <h2 class="output" id="output"></h2>
@@ -69,6 +66,6 @@
             
         </ul>
     </footer>
-    <script src="./src/app.js"></script>
+    <script src="../src/area.js"></script>
 </body>
 </html>
