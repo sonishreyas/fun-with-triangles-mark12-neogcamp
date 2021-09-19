@@ -20,6 +20,14 @@ hr {
     max-width: 600px;
     margin:auto;
 }
+.container-quiz  {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    max-width: 600px;
+    margin:auto;
+
+}
 
 .heading    {
     text-align: center;
@@ -27,7 +35,7 @@ hr {
     color: var(--primary-color);
 }
 
-.formula    {
+.container-quiz   {
     text-align: center;
     padding-top: 1rem;
     color: var(--primary-color);
@@ -35,7 +43,7 @@ hr {
     border:1px solid var(--primary-color);
     text-decoration: none;
     border-radius: 1rem;
-    height: 4rem;
+    height: 10rem;
 
 }
 .input  {

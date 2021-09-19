@@ -13,7 +13,7 @@ function checkHypotenuse() {
     if(a != "" && b != "") {
         const hypotenus = calculateHypotenuse(a,b);
         output.style.display="Block";
-        output.innerText = "Length of hypotenuse = " + String(hypotenus);
+        output.innerText = "Length of hypotenuse = " + hypotenus;
     }   else{
         output.style.display="Block";
         output.innerText = "Please enter length of both sides";

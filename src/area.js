@@ -13,7 +13,7 @@ function checkArea() {
     if(b != "" && h != "") {
         const area = calculateArea(b,h);
         output.style.display="Block";
-        output.innerText = "Area of triangle = " + String(area) + " cm²";
+        output.innerText = "Area of triangle = " + area + " cm²";
     }   else{
         output.style.display="Block";
         output.innerText = "Area of triangle = 0 cm²";
