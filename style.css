@@ -24,9 +24,20 @@ hr {
 .heading    {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-grey);
+    color: var(--primary-color);
 }
 
+.formula    {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--primary-color);
+    box-sizing: border-box;
+    border:1px solid var(--primary-color);
+    text-decoration: none;
+    border-radius: 1rem;
+    height: 4rem;
+
+}
 .input  {
     box-sizing: border-box;
     text-decoration: none;
