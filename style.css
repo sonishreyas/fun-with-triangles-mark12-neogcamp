@@ -28,11 +28,25 @@ hr {
     margin:auto;
 
 }
+.label  {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
 
 .heading    {
     text-align: center;
     padding-top: 1rem;
     color: var(--primary-color);
+}
+.formula    {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--primary-color);
+    box-sizing: border-box;
+    border:1px solid var(--primary-color);
+    text-decoration: none;
+    border-radius: 1rem;
+    height: 4rem;
 }
 
 .container-quiz   {
@@ -43,7 +57,7 @@ hr {
     border:1px solid var(--primary-color);
     text-decoration: none;
     border-radius: 1rem;
-    height: 10rem;
+    height: 7rem;
 
 }
 .input  {
