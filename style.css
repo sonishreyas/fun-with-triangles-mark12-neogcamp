@@ -101,7 +101,7 @@ hr {
     color: white;
     border-top-right-radius: 2.5rem;
     border-top-left-radius: 2.5rem;
-    bottom: 0;
+    /* bottom: 0; */
     left: 0;
     position: absolute;
     right: 0;
