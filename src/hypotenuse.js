@@ -10,10 +10,13 @@ function calculateHypotenuse(a,b)  {
 function checkHypotenuse() {
     const a = sideALength.value;
     const b = sideBLength.value;
-    if(a != "" && b != "") {
+    if(a != "" && b != "" && b > 0 && a>0) {
         const hypotenus = calculateHypotenuse(a,b);
         output.style.display="Block";
         output.innerText = "Length of hypotenuse = " + hypotenus;
+    }   else if(b<0 || a<0)   {
+        output.style.display="Block";
+        output.innerText = "Invalid input. Length cannot be negative!!";
     }   else{
         output.style.display="Block";
         output.innerText = "Please enter length of both sides";

@@ -10,11 +10,14 @@ function calculateArea(b,h)  {
 function checkArea() {
     const b = baseLength.value;
     const h = heightLength.value;
-    if(b != "" && h != "") {
+    if(b != "" && h != "" && b > 0 && h>0) {
         const area = calculateArea(b,h);
         output.style.display="Block";
         output.innerText = "Area of triangle = " + area + " cm²";
-    }   else{
+    } else if(b<0 || h<0)   {
+        output.style.display="Block";
+        output.innerText = "Invalid input. It cannot be negative!!";
+    } else{
         output.style.display="Block";
         output.innerText = "Area of triangle = 0 cm²";
     }  
